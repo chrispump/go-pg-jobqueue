@@ -1,0 +1,29 @@
+version: "2"
+run:
+  modules-download-mode: mod
+linters:
+  default: fast
+  disable:
+    - wsl
+    - depguard
+  enable:
+    - wsl_v5
+  settings:
+    cyclop:
+      max-complexity: 20
+    funlen:
+      lines: 150
+      statements: 70
+    gocognit:
+      min-complexity: 35
+    mnd:
+      ignored-numbers:
+        - "0o644"
+        - "0o755"
+formatters:
+  enable:
+    - gci
+    - gofmt
+    - gofumpt
+    - goimports
+    - golines
