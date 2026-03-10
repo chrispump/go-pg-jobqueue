@@ -1,5 +1,7 @@
 # Fault-Tolerant Job Queue with Go and PostgreSQL
 
+[![CI](https://github.com/chrispump/go-pg-jobqueue/actions/workflows/ci.yml/badge.svg)](https://github.com/chrispump/go-pg-jobqueue/actions/workflows/ci.yml)
+
 A proof-of-concept implementation and benchmark suite developed as part of a Bachelor's thesis at [Hochschule Flensburg](https://www.hs-flensburg.de), investigating whether PostgreSQL and Go can serve as a reliable foundation for fault-tolerant job queue systems.
 
 ## Research Question
