@@ -31,4 +31,10 @@ go.work.sum
 # Worker event logs
 logs/worker_*.log
 
+# PDF
+*.pdf
+
+# Virtual environments
+.venv/
+
 
