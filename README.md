@@ -84,6 +84,14 @@ Open `notebook.ipynb` to reproduce all figures from the thesis:
 jupyter notebook notebook.ipynb
 ```
 
+You can use the provided requirements.txt to set up a virtual environment with the necessary Python packages:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 The notebook loads the CSV files from `./csv/` and produces:
 
 - Throughput vs. worker count charts (FOR UPDATE vs. SKIP LOCKED)
